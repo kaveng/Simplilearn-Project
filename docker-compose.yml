@@ -1,0 +1,9 @@
+version: '3.5'
+
+services:
+    angular-service:
+      container_name: projectcontainer
+      build: .
+      ports:
+        - "3939:3939"
+
